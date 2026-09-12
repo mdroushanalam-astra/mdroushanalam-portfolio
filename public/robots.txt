@@ -1,0 +1,78 @@
+# ==============================================
+# robots.txt - mdroushanalam.in
+# Md. Roushan Alam | Founder | AI Entrepreneur
+# ==============================================
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /analytics
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Twitter / X
+User-agent: Twitterbot
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# ChatGPT / OpenAI
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Google Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Claude / Anthropic
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap
+Sitemap: https://mdroushanalam.in/sitemap.xml

@@ -1,0 +1,27 @@
+{
+    "name": "Md. Roushan Alam",
+    "tagline": "AI Entrepreneur & Visionary Founder — Techgram, Gig-Lo, IndoverseAI",
+    "url": "https://mdroushanalam.in",
+    "description": "Official portfolio website of Md. Roushan Alam — India's youngest AI entrepreneur and visionary founder based in Delhi and Dhanbad. Founder of Techgram (AI EdTech), Gig-Lo (community marketplace), and IndoverseAI (AI solutions). BBMKU student and AI engineer.",
+    "contact": {
+        "email": "mdroushanalam.ai@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/mdroushanalam"
+    },
+    "ventures": [
+        {
+            "name": "Techgram",
+            "url": "https://www.techgramedu.in",
+            "description": "AI-Powered Multiverse of Learning"
+        },
+        {
+            "name": "Gig-Lo",
+            "url": "https://giglo.in",
+            "description": "Community-Powered Marketplace"
+        },
+        {
+            "name": "IndoverseAI",
+            "url": "https://indoverselabs.in",
+            "description": "AI Solutions for D2C, B2B & Government"
+        }
+    ]
+}

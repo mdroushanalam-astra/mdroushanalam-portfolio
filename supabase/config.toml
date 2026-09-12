@@ -1,0 +1,10 @@
+project_id = "dvakegtseveftasmslzh"
+
+[functions.roast-chat]
+verify_jwt = false
+
+[functions.ai-mood-quote]
+verify_jwt = false
+
+[functions.generate-resume]
+verify_jwt = false
