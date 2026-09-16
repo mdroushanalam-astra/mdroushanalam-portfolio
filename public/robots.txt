@@ -1,78 +1,66 @@
 # ==============================================
 # robots.txt - mdroushanalam.in
-# Md. Roushan Alam | Founder | AI Entrepreneur
+# Md. Roushan Alam | AI Product Builder | Systems Studio
 # ==============================================
 
-# Allow all search engines
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /analytics
 
-# Google
+# Primary Search Engine Crawlers
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
-# Bing
 User-agent: Bingbot
 Allow: /
 
-# Twitter / X
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Social Crawlers
 User-agent: Twitterbot
 Allow: /
 
-# Facebook
 User-agent: facebookexternalhit
 Allow: /
 
-# LinkedIn
 User-agent: LinkedInBot
 Allow: /
 
-# ChatGPT / OpenAI
-User-agent: ChatGPT-User
-Allow: /
-
+# AI Crawlers & Synthesizers
 User-agent: GPTBot
 Allow: /
 
-# Perplexity
+User-agent: ChatGPT-User
+Allow: /
+
 User-agent: PerplexityBot
-Allow: /
-
-# Google Gemini
-User-agent: Google-Extended
-Allow: /
-
-# Claude / Anthropic
-User-agent: anthropic-ai
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
-# Cohere
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 User-agent: cohere-ai
 Allow: /
 
-# Apple
-User-agent: Applebot
-Allow: /
-
-# Yandex
-User-agent: Yandex
-Allow: /
-
-# Baidu
-User-agent: Baiduspider
-Allow: /
-
-# DuckDuckGo
-User-agent: DuckDuckBot
-Allow: /
-
-# Sitemap
+# XML Sitemaps
+Sitemap: https://www.mdroushanalam.in/sitemap.xml
 Sitemap: https://mdroushanalam.in/sitemap.xml

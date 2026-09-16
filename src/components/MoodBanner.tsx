@@ -34,7 +34,7 @@ const MoodBanner = () => {
         {quote && (
           <>
             <span className="text-primary-foreground/30">•</span>
-            <span className="text-primary-foreground/50 italic text-xs max-w-[200px] truncate">{quote}</span>
+            <span className="text-primary-foreground/50 not-italic text-xs max-w-[200px] truncate">{quote}</span>
           </>
         )}
       </span>

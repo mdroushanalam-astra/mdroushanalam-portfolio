@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import BlogPost from "./pages/BlogPost";
 import Analytics from "./pages/Analytics";
 import NotFound from "./pages/NotFound";
+import AstraHumanisPage from "./pages/AstraHumanisPage";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/analytics" element={<Analytics />} />
+            <Route path="/astra-humanis" element={<AstraHumanisPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

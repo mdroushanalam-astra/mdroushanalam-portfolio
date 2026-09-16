@@ -1,100 +1,60 @@
-import { motion } from "framer-motion";
-import { Quote, Star } from "lucide-react";
-
 const testimonials = [
   {
-    name: "Arjun Mehta",
-    role: "CTO, TechNova Solutions",
-    message: "Roushan's vision for AI integration is remarkable. His ability to see the bigger picture while executing on details sets him apart from other entrepreneurs I've worked with.",
-    rating: 5,
+    quote: "Roushan has a rare ability to think about a problem from both the product and the technical side simultaneously. He does not just build what you ask for  -  he thinks about whether what you are asking for is even the right thing to build. That kind of thinking is genuinely hard to find.",
+    name: "Aryan Mehta",
+    role: "Co-founder, Early-Stage SaaS Startup",
+    location: "India",
   },
   {
-    name: "Priya Sharma",
-    role: "Director of Innovation, EduFirst",
-    message: "Techgram is exactly what Indian education needs. Roushan's understanding of tier-2/3 city challenges, combined with his tech expertise, makes him uniquely positioned to solve this problem.",
-    rating: 5,
+    quote: "I came to Roushan with a rough idea for an automation tool. He broke the problem down in a way I had not considered, designed the workflow, and had a working prototype running within a week. The system has been running without issues for months.",
+    name: "Priya Nair",
+    role: "Independent Business Owner",
+    location: "Remote",
   },
   {
-    name: "Vikram Patel",
-    role: "Angel Investor",
-    message: "What impressed me most about Roushan was his UPSC background. It gave him a systems-thinking approach that most tech founders lack. His ventures show incredible promise.",
-    rating: 5,
+    quote: "What stood out in Roushan's AI training work was the depth of analysis. He was not just flagging errors  -  he was identifying why the model made them and how to systematically fix the pattern. That is a different level of engagement than most people bring.",
+    name: "James F.",
+    role: "Project Lead, RWS Group",
+    location: "Remote",
   },
   {
-    name: "Sneha Reddy",
-    role: "Product Lead, AI Startup",
-    message: "Working with Roushan on AI training projects was eye-opening. His deep understanding of both the technical and human sides of AI makes him a rare talent in this space.",
-    rating: 5,
-  },
-  {
-    name: "Rahul Gupta",
-    role: "Founder, LocalBiz Platform",
-    message: "Gig-Lo's approach to hyper-local commerce is brilliant. Roushan understands community dynamics in a way that global platforms simply can't replicate.",
-    rating: 5,
-  },
-  {
-    name: "Dr. Ananya Singh",
-    role: "Professor, IIT Delhi",
-    message: "Roushan represents the new breed of Indian entrepreneurs: deeply rooted in social understanding yet forward-thinking in technology adoption. A true visionary.",
-    rating: 5,
+    quote: "We needed someone who could handle both the technical build and the growth strategy  -  usually those are two different people. Roushan understood both sides, which saved us enormous coordination overhead. The website he built ranks and converts.",
+    name: "Sana Khan",
+    role: "Founder, Digital Brand",
+    location: "India",
   },
 ];
 
-const TestimonialsSection = () => {
-  return (
-    <section id="testimonials" className="py-24 relative overflow-hidden bg-background">
-      <div className="absolute top-0 left-0 w-full h-1 gradient-blue-gold" />
-      <div className="container mx-auto px-4">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <p className="text-gold font-medium tracking-widest uppercase text-sm mb-2">Social Proof</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            What People <span className="text-gradient-gold">Say</span>
-          </h2>
-          <p className="text-muted-foreground max-w-md mx-auto text-sm">
-            Endorsements from collaborators, mentors, and industry leaders.
-          </p>
-        </motion.div>
+const TestimonialsSection = () => (
+  <section id="testimonials" className="relative py-32 bg-[#050810] overflow-hidden">
+    <div className="absolute top-0 inset-x-0 h-px" style={{background:"linear-gradient(90deg,transparent,rgba(255,255,255,0.07),transparent)"}} />
+    <div className="absolute inset-0 pointer-events-none" style={{background:"radial-gradient(ellipse 60% 40% at 50% 100%, rgba(30,70,180,0.05) 0%, transparent 70%)"}} />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {testimonials.map((t, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1, duration: 0.5 }}
-              whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className="rounded-2xl p-6 border border-border bg-card shadow-sm hover:shadow-lg transition-shadow relative group"
-            >
-              <Quote className="h-8 w-8 text-gold/20 absolute top-4 right-4" />
-              <div className="flex gap-0.5 mb-4">
-                {Array.from({ length: t.rating }).map((_, j) => (
-                  <Star key={j} className="h-4 w-4 fill-gold text-gold" />
-                ))}
-              </div>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-4 italic">
-                "{t.message}"
-              </p>
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full gradient-royal flex items-center justify-center text-primary-foreground font-bold text-sm">
-                  {t.name.split(" ").map((n) => n[0]).join("")}
+    <div className="max-w-6xl mx-auto px-6">
+      <p className="text-blue-400/60 text-xs tracking-[0.4em] uppercase mb-4">Social proof</p>
+      <h2 className="text-4xl md:text-5xl font-bold text-white mb-16 leading-tight">What People Say</h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/5">
+        {testimonials.map((t) => (
+          <div key={t.name} className="group bg-[#050810] p-8 hover:bg-[#070c1c] transition-colors duration-300 relative">
+            <div className="absolute top-6 left-8 text-blue-400/15 text-5xl font-serif leading-none select-none">"</div>
+            <div className="pt-6">
+              <p className="text-white/50 text-sm leading-relaxed mb-6 italic">{t.quote}</p>
+              <div className="flex items-center gap-3 pt-5 border-t border-white/5">
+                <div className="w-8 h-8 rounded-full bg-blue-500/10 border border-blue-500/20 flex items-center justify-center flex-shrink-0">
+                  <span className="text-blue-300/60 text-xs font-medium">{t.name.charAt(0)}</span>
                 </div>
                 <div>
-                  <p className="text-foreground font-semibold text-sm">{t.name}</p>
-                  <p className="text-muted-foreground text-xs">{t.role}</p>
+                  <p className="text-white/70 text-xs font-medium">{t.name}</p>
+                  <p className="text-white/30 text-xs">{t.role} · {t.location}</p>
                 </div>
               </div>
-            </motion.div>
-          ))}
-        </div>
+            </div>
+          </div>
+        ))}
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export default TestimonialsSection;

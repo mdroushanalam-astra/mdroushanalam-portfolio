@@ -27,7 +27,7 @@ const milestones: Milestone[] = [
     alt: "Student studying for UPSC Civil Services Examination",
     x: 15,
     y: 55,
-    icon: "📚",
+    icon: "ðŸ“š",
     region: "The Scholar's Realm",
   },
   {
@@ -38,7 +38,7 @@ const milestones: Milestone[] = [
     alt: "Graduation ceremony at BBMKU Dhanbad",
     x: 38,
     y: 35,
-    icon: "🎓",
+    icon: "ðŸŽ“",
     region: "The Academy",
   },
   {
@@ -49,7 +49,7 @@ const milestones: Milestone[] = [
     alt: "Working with AI interfaces and neural networks",
     x: 62,
     y: 60,
-    icon: "🤖",
+    icon: "ðŸ¤ - ",
     region: "The Innovation District",
   },
   {
@@ -60,7 +60,7 @@ const milestones: Milestone[] = [
     alt: "Entrepreneur with futuristic startup ventures",
     x: 85,
     y: 40,
-    icon: "🚀",
+    icon: "ðŸš€",
     region: "The Frontier",
   },
 ];
@@ -134,7 +134,7 @@ const TimelineMapSection = () => {
           className="text-center mb-12"
         >
           <p className="text-gold font-medium tracking-[0.3em] uppercase text-xs mb-3">
-            🗺️ Explore The Journey
+            ðŸ - ºï¸� Explore The Journey
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">
             The <span className="text-gradient-gold">Adventure</span> Map
