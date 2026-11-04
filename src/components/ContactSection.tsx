@@ -15,7 +15,7 @@ export default function ContactSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
           <div>
-            <div className="font-mono text-sm text-[#F2B66D] tracking-wider mb-6">16 / INITIATE</div>
+            <div className="font-mono text-sm text-[#F2B66D] tracking-wider mb-6">15 / INITIATE</div>
             <h2 className="text-4xl md:text-6xl font-display font-bold leading-[1.1] mb-6">
               Have an expensive problem?
             </h2>

@@ -4,7 +4,6 @@ const navLinks = [
   { name: "Home", href: "/#home" },
   { name: "Thinking", href: "/#proof-of-thinking" },
   { name: "Prototypes", href: "/#prototypes" },
-  { name: "Ventures", href: "/#ventures" },
   { name: "Field Notes", href: "/#field-notes" },
   { name: "Astra Humanis", href: "https://astrahumanis.in", isSpecial: true, isExternal: true },
   { name: "Contact", href: "/#contact" },

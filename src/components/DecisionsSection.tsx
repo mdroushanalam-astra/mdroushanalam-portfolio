@@ -54,7 +54,7 @@ export default function DecisionsSection() {
       <div className="max-w-4xl mx-auto px-6">
         <div className="mb-16">
           <p className="font-mono text-sm text-slate-500 mb-4 tracking-wider">
-            11 / DECISIONS
+            10 / DECISIONS
           </p>
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
             Judgment is the hardest thing to fake.

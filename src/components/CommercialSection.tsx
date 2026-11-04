@@ -29,7 +29,7 @@ export default function CommercialSection() {
     <section id="commercial" className="py-24 bg-[#F8FAFC]">
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-16">
-          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-4">15 / WHAT I CAN BUILD WITH YOU</div>
+          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-4">14 / WHAT I CAN BUILD WITH YOU</div>
           <h2 className="text-3xl md:text-5xl font-display font-bold text-[#071522] max-w-3xl leading-tight">
             Engagements are scoped around the problem, not the number of hours.
           </h2>

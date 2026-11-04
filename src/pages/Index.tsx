@@ -7,7 +7,6 @@ import PrototypesSection from "@/components/PrototypesSection";
 import SystemDeconstructionLab from "@/components/SystemDeconstructionLab";
 import ThinkWithMeSection from "@/components/ThinkWithMeSection";
 import ArchitectureThinkingSection from "@/components/ArchitectureThinkingSection";
-import SelectedVenturesSection from "@/components/SelectedVenturesSection";
 import DecisionsSection from "@/components/DecisionsSection";
 import FieldNotesSection from "@/components/FieldNotesSection";
 import AboutRoushanSection from "@/components/AboutRoushanSection";
@@ -30,7 +29,6 @@ const Index = () => {
       <SystemDeconstructionLab />
       <ThinkWithMeSection />
       <ArchitectureThinkingSection />
-      <SelectedVenturesSection />
       <DecisionsSection />
       <FieldNotesSection />
       <AboutRoushanSection />

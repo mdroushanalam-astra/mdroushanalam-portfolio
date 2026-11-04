@@ -41,7 +41,7 @@ export default function OperatingSystemSection() {
     <section id="operating-system" className="py-24 bg-white">
       <div className="max-w-4xl mx-auto px-6">
         <div className="mb-16 text-center">
-          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-4">14 / OPERATING SYSTEM</div>
+          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-4">13 / OPERATING SYSTEM</div>
           <h2 className="text-4xl md:text-5xl font-display font-bold text-[#071522]">
             How I approach a problem
           </h2>

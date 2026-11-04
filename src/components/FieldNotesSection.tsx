@@ -64,7 +64,7 @@ export default function FieldNotesSection() {
     <section id="field-notes" className="py-24 bg-[#F8FAFC]">
       <div className="max-w-5xl mx-auto px-6">
         <div className="mb-16">
-          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-4">12 / FIELD NOTES</div>
+          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-4">11 / FIELD NOTES</div>
           <h2 className="text-3xl md:text-5xl font-display font-bold text-[#071522] max-w-3xl leading-tight">
             Ideas, experiments, and lessons from the intersection of technology, product, and systems.
           </h2>

@@ -5,7 +5,7 @@ export default function AboutRoushanSection() {
     <section id="about" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-16">
-          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-2">13 / ABOUT</div>
+          <div className="font-mono text-sm text-[#071522]/60 tracking-wider mb-2">12 / ABOUT</div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-[#071522]">
             Md. Roushan Alam
           </h2>
